@@ -1,6 +1,9 @@
 @echo off
 setlocal EnableDelayedExpansion
 
+@REM set the current directory
+cd %~dp0
+
 @REM install pyenv through pip
 python -m pip install virtualenv
 
